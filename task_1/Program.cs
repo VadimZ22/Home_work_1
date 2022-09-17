@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 Console.WriteLine("Введите два числа!");
-int num_1 = int.Parse(Console.ReadLine());
-int num_2 = int.Parse(Console.ReadLine());
+double num_1 = double.Parse(Console.ReadLine());
+double num_2 = double.Parse(Console.ReadLine());
 
 if (num_1 < num_2)
     Console.WriteLine($"max = {num_2}, min = {num_1}");
